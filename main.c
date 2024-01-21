@@ -1,8 +1,3 @@
-/*
- * ECE 649/796
- * Morse Code Communicator: UART-Based LED and Sound Signaling System
- * By: Yash Patel
- */
 
 #include <msp430.h>
 #include <ctype.h>
