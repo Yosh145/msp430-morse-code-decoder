@@ -1,3 +1,6 @@
+This was made for a Junior Level Computer Engineering course. Please do not Duplicate for class :)
+
+
 **Morse Code Communicator: UART-Based LED and Sound Signaling System**
 
 Description
