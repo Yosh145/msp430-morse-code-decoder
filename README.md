@@ -1,14 +1,13 @@
-This was made for a Junior Level Computer Engineering course. 
+### This was made for a Junior Level Computer Engineering course. 
 
 
 **Morse Code Communicator: UART-Based LED and Sound Signaling System**
 
-Description
+## Description
 
 This project implements a Morse code translator using the MSP430FR6989 microcontroller. It receives text input through UART and translates it into Morse code. The Morse code is represented both visually, using LEDs, and audibly, with a buzzer.
 
-Features:
-
+##Features:
 
 _UART Communication: Receives text input from a connected device._
 
@@ -20,7 +19,7 @@ _Supports Alphabets and Numbers: Translates both letters (a-z) and numbers (0-9)
 
 _Customizable Parameters: Allows modifications of the buzzer frequency and the buffer size for input strings._
 
-Hardware Setup
+## Hardware Setup
 
 Red LED: Connect to P1.0.
 
@@ -31,13 +30,13 @@ Buzzer: Connect to P1.3.
 UART Pins: Connect P3.4 (RX) and P3.5 (TX) for UART communication.
 
 
-Software Requirements
+## Software Requirements
 
 Code Composer Studio or similar IDE for MSP430 development.
 
 A terminal program for UART communication (e.g., PuTTY, Tera Term, or you can use CCS built in terminal).
 
-Usage
+## Usage
 
 Compile and Flash: Compile the code and flash it to the MSP430FR6989 microcontroller.
 
@@ -47,7 +46,7 @@ Open Terminal: Open a terminal program and configure it for **9600 baud, 8 data 
 
 Send Text: Type text into the terminal. The MSP430FR6989 will translate and output the text as Morse code using the LED and buzzer.
 
-Functions
+## Functions
 
 Initialize_UART(): Initializes UART communication.
 
@@ -67,7 +66,7 @@ play_dash(): Plays a dash in Morse code.
 
 play_morse(): Plays Morse code for a given character.
 
-Important Notes
+## Important Notes
 
 **Ensure that the MSP430FR6989 microcontroller is properly connected and powered.
 The UART communication settings must match between the microcontroller and the terminal program.
