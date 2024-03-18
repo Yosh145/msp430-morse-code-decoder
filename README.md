@@ -7,7 +7,7 @@
 
 This project implements a Morse code translator using the MSP430FR6989 microcontroller. It receives text input through UART and translates it into Morse code. The Morse code is represented both visually, using LEDs, and audibly, with a buzzer.
 
-##Features:
+## Features:
 
 _UART Communication: Receives text input from a connected device._
 
